@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "knowledge-graph-applied"
+version = "0.1.0"
+description = ""
+authors = ["Andre Wiradarma <awiradarma@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+tenacity = "^9.0.0"
+tqdm = "^4.66.5"
+requests = "^2.32.3"
+spacy = "^3.7.6"
+pytextrank = "^3.3.0"
+neo4j = "^5.24.0"
+jupyter = "^1.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
